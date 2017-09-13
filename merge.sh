@@ -1,3 +1,4 @@
+#test
 # Here is how we are setting the variable 'branches'
 ALL_BRANCHES=`git ls-remote . | cut -d $'\t' -f 2` # THIS WILL INCLUDE THE FOLDER AS PREFIX
 includePattern= 
